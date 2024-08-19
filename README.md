@@ -39,20 +39,45 @@ Hosting a game server requires you to port forward to make your server accessibl
 every router is different we can't make a guide for every router, so we recommend searching `your router name + port
 forward` on Google.
 
-The servers that are currently set up to forward ports `27016-27021`.
-
-#### Firewall rule for incoming traffic
-
-You will need to allow for incoming traffic to the ports that you have configured for your servers. First you need to
-find what your IP is. Use the following command in your `cmd` to find your IP:
+To allow for incoming traffic to the ports that you have configured for your servers. You will need to know what your IP
+address on your network is. Use the following command in your `cmd` to find your IP:
 
 ```shell
 ipconfig
 ```
 
+The servers that are currently set up to forward ports `27016-27021`.
+
+#### Firewall rule for incoming traffic
+
 You will need to add the ports that you have specified for your servers to allowed incoming traffic. See the
 following [article](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) for a
 step-by-step guide on how to do this.
+
+### After everything is configured
+
+Once you have finished setting up all the config, all you will need to do it send your routers public IP address to your
+friends. You will be able to find what your routers IP address is on the
+following [website](https://whatismyipaddress.com/).
+
+Now that you have that, you will be able to send the `address:port` to your friends for them to connect to the servers.
+
+To make it easier, I suggest that they add the servers to their favourites which will allow for them to use the server
+browser to be able to find your servers.
+
+To have favourites, you will need to create a file called `favourites.json` and place this file in the `player2`
+directory at the root of the directory of the game file. The `json` file has the following structure:
+
+```json
+   [
+  "<ip-adress>:<port",
+  "105.xxx.xxx.123:27016",
+  "105.xxx.xxx.123:27018",
+  "105.xxx.xxx.123:27019",
+  "105.xxx.xxx.123:27020",
+  "105.xxx.xxx.123:27021"
+]
+```
 
 I am available in the `H2m-mod` discord with my user handle is `surebud`. Please contact me on the discord server if
 there are any questions or suggestions.
