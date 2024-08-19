@@ -79,13 +79,15 @@ directory at the root of the directory of the game file. The `json` file has the
 ]
 ```
 
-I am available in the `H2m-mod` discord with my user handle is `surebud`. Please contact me on the discord server if
-there are any questions or suggestions.
-
 # Plans for the future
 
 1. I plan on solving the problems I was having with navigating directories in the script and after that I look to upload
    a
    basic walkthrough on how to set up multiple servers running at once.
 2. Dockerising the servers to make for ease of deploying on remote VM's or other devices so that it does not harm the
-   performance of my computer.  
+   performance of my computer.
+
+## Contact
+
+I am available in the `H2m-mod` discord with my user handle is `surebud`. Please contact me on the discord server if
+there are any questions or suggestions.
