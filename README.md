@@ -3,9 +3,10 @@
 Welcome to a small thing that I have been working on in my free time for fun to assist the south african community for
 the H2m-mod for *Call of Duty: Modern warfare 1/2 remastered*
 
-## Starting steps to run your own servers
+## Steps to run your own servers
 
-I will explain some basic steps that you will have to do for this to work for you.
+This `readme` is a simplified guide on how to get this running. If something isn't clear, I have specified how you will
+be able to be in contact with me at the bottom of the readme. I would love feedback.
 
 ### Copying the file to the correct place
 
